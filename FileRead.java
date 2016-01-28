@@ -5,9 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * Created by FarisShatat on 1/26/16.
- */
+
 public class FileRead {
 
 
