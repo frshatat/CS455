@@ -34,7 +34,7 @@ public class FileRead {
         index = i;
         try {
             String[] line;
-            bufferReader = new CSVReader(new FileReader("Crimes_-_2016.csv"));
+            bufferReader = new CSVReader(new FileReader("src/Crimes_-_2016.csv"));
 
 
             while ((line = bufferReader.readNext()) != null) {
@@ -140,6 +140,8 @@ public class FileRead {
         System.out.println("The standard deviation for" + input + "is " + Math.sqrt(variance));
 
     }
+
+
 
 }
 
